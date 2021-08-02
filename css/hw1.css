@@ -1,0 +1,32 @@
+h1{
+  color:#ffffff;
+  background: #999999;
+  text-align: center; 
+  text-size: 200%;
+  font-variant: small-caps;
+}
+header{
+ background: #999999;
+ font-family: helvetica, arial, cursive;
+}
+nav, style{
+  color: ##fc03f4;
+}
+  h2{
+  color: #000065;
+  background: #666666;
+  font-variant: small-caps; 
+  font-size: 150%;
+  font-weight: bold;
+}
+section{
+  background:#666666;
+  text-align: justify;
+  font-size: 125%;
+  font-weight: normal;
+  
+}
+
+aside{
+  display: none;
+}
