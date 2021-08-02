@@ -28,20 +28,18 @@ a:active{
   font-weight: bold; 
 }
 h2{
-  color: #000065;
-  background: #666666;
+  color: #3209d9;
+  background: #d1dfe8;
   font-variant: small-caps; 
   font-size: 150%;
   font-weight: bold;
 }
 section{
-  background:#666666;
+  background:#d1dfe8;
   text-align: justify;
   font-size: 125%;
   font-weight: normal;
-  
 }
-
 aside{
   display: none;
 }
