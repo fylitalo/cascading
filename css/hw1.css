@@ -13,8 +13,9 @@ a:link{
  color:#0a8f38;
  font-weight: bold;
 }
+
 a:visited{
-  color:#140670;
+  color:#f2fa0f;
   font-weight:bold;
 }
 a:hover{
@@ -23,7 +24,7 @@ a:hover{
  
 }
 a:active{
-  color: #f2fa0f;
+  color:#220459;
   font-weight: bold; 
 }
 h2{
