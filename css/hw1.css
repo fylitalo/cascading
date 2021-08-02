@@ -9,6 +9,9 @@ header{
  background: #999999;
  font-family: helvetica, arial, cursive;
 }
+a{
+  color:#700aff;          
+}
 a:link{
  color:#e309d1;
  font-weight: bold;
