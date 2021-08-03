@@ -25,9 +25,10 @@ a:active{
 }
 
 h2{
-  color:#8914e3;
+  color:#ff0a64;
 }
 h2, section{
+  color: #000;
   background: #9ad0ed;
   text-align: justify;
   font-size: 125%;
