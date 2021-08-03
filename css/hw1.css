@@ -23,7 +23,7 @@ a:hover{
   
 }
 a:active{
-  color:#09e3ac;
+  color:#09e3ac !important;
   
 }
 nav, style{
