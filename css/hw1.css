@@ -9,21 +9,20 @@ header{
  background: #999999;
  font-family: helvetica, arial, cursive;
 }
-a:link{
-  color:#000000 !important;
+a{
+  color:#000;
   font-weight: bold;
-  
 }
 a:visited{
   color:#f7105;
   
 }
 a:hover{
-  color:#cd09e3;
+  color:#cd09e3
   
 }
 a:active{
-  color:#09e3ac !important;
+  color:#09e3ac
   
 }
 nav, style{
@@ -31,16 +30,16 @@ nav, style{
 }
   h2{
   color: #000065;
-  background: #9ad0ed;
+  background: #666666;
   font-variant: small-caps; 
   font-size: 150%;
   font-weight: bold;
 }
 section{
-  background:#9ad0ed;
+  background:#666666;
   text-align: justify;
   font-size: 125%;
-  font-weight: normal;
+  font-weight: bold;
   
 }
 
