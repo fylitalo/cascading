@@ -6,12 +6,11 @@ h1{
   font-variant: small-caps;
 }
 header{
+ color: #e36709;
  background: #999999;
  font-family: helvetica, arial, cursive;
-}
-a{
-  color:#700aff;          
-}
+}         
+
 a:link{
  color:#700aff;
  font-weight: bold;
