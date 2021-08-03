@@ -14,15 +14,15 @@ a:link{
   font-weight: bold;
 }
 a:visited{
-  color:#f7105
+  color:#f7105;
   
 }
 a:hover{
-  color:#cd09e3
+  color:#cd09e3;
   
 }
 a:active{
-  color:#09e3ac
+  color:#09e3ac;
   
 }
 nav, style{
@@ -36,7 +36,7 @@ nav, style{
   font-weight: bold;
 }
 section{
-  background:#666666;
+  background:#9ad0ed;
   text-align: justify;
   font-size: 125%;
   font-weight: normal;
