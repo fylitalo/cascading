@@ -10,8 +10,9 @@ header{
  font-family: helvetica, arial, cursive;
 }
 a:link{
-  color:#000;
+  color:#000000 !important;
   font-weight: bold;
+  
 }
 a:visited{
   color:#f7105;
