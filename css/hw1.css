@@ -9,7 +9,7 @@ header{
  background: #999999;
  font-family: helvetica, arial, cursive;
 }
-a{
+a:link{
   color:#000;
   font-weight: bold;
 }
