@@ -9,6 +9,22 @@ header{
  background: #999999;
  font-family: helvetica, arial, cursive;
 }
+a:link{
+  color:#000;
+  font-weight: bold;
+}
+a:visited{
+  color:#f7105
+  
+}
+a:hover{
+  color:#cd09e3
+  
+}
+a:active{
+  color:#09e3ac
+  
+}
 nav, style{
   color: ##fc03f4;
 }
