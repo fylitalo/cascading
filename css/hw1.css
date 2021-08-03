@@ -8,34 +8,25 @@ h1{
 header{
  background: #999999;
  font-family: helvetica, arial, cursive;
-}         
-
-a:link{
- color:#700aff;
- font-weight: bold;
 }
-
-a:visited{
-  color:#f2fa0f;
-  font-weight:bold;
+nav, style{
+  color: ##fc03f4;
 }
-a:hover{
-  color:#fc03f4;
-  font-weight: bold;
-}
-h2{
-  color: #3209d9;
-  background: #d1dfe8;
+  h2{
+  color: #000065;
+  background: #666666;
   font-variant: small-caps; 
   font-size: 150%;
   font-weight: bold;
 }
 section{
-  background:#d1dfe8;
+  background:#666666;
   text-align: justify;
   font-size: 125%;
-  font-weight: bold;
+  font-weight: normal;
+  
 }
+
 aside{
   display: none;
 }
