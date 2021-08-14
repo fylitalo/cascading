@@ -20,25 +20,28 @@ header {
 
   }
 
-a {
+li {
+  float: left;
+}
+li a{
   border-style: solid;
   border-width: 3px;
   border-color: #ffffff;
   padding: 3px;
   margin-bottom: auto;
 }
-a {
+li a {
   color: #000;
   background-color: #ffffff;
   font-weight: bold;
 }
-a:visited {
+li a:visited {
   color: #fc5e03;
 }
-a:hover {
+li a:hover {
   color: #cd09e3;
 }
-a:active {
+li a:active {
   color: #09e3ac;
 }
 
