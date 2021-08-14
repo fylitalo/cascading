@@ -29,18 +29,18 @@ li a{
   padding: 3px;
   margin-bottom: auto;
 }
-li a{
+nav a{
   color: #000;
   background-color: #ffffff;
   font-weight: bold;
 }
-li a:visited{
+nav a:visited{
   color: #fc5e03;
 }
-li a:hover{
+nav a:hover{
   color: #cd09e3;
 }
-li a:active {
+nav a:active {
   color: #09e3ac;
 }
 a{
