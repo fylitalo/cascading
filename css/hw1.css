@@ -22,14 +22,14 @@ header {
 
 
 }
-li a{
+h1 a{
   border-style: solid;
   border-width: 3px;
   border-color: #ffffff;
   padding: 3px;
   margin-bottom: auto;
 }
-nav a{
+h1 a{
   color: #000;
   background-color: #ffffff;
   font-weight: bold;
