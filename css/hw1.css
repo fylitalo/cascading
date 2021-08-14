@@ -20,8 +20,7 @@ header {
 
   }
 
-li {
-  float: left;
+
 }
 li a{
   border-style: solid;
@@ -30,21 +29,23 @@ li a{
   padding: 3px;
   margin-bottom: auto;
 }
-li a {
+li a{
   color: #000;
   background-color: #ffffff;
   font-weight: bold;
 }
-li a:visited {
+li a:visited{
   color: #fc5e03;
 }
-li a:hover {
+li a:hover{
   color: #cd09e3;
 }
 li a:active {
   color: #09e3ac;
 }
-
+a{
+  color: #666;
+}
 h2 {
   color: #040457;
   
