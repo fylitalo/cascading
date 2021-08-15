@@ -18,9 +18,12 @@ h1 {
   color: #ffffff;
   /* test background: #999999 url(../images/flywheel.jpg);*/
   text-align: center;
-  font-size: 28px;
+  border-style: hidden;
+  border-width: 0 auto;
+  font-size: 38px;
   font-variant: small-caps;
   border-width: 0 auto;
+  padding: 1px;
 }
 nav a{
 
@@ -28,8 +31,8 @@ nav a{
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  padding: 10px 80px 10px 80px;
-  margin: 15px 35px;
+  padding: 5px 80px 5px 80px;
+  margin: 10px 35px;
   text-align: center;
   color: #00ccff;
   background-color: hsl(348.1,97%,75.4%);
@@ -37,6 +40,7 @@ nav a{
   font-weight: bolder;
   font-size: 22px;
   text-decoration: none;
+  opacity: 89%;
 
 
 }nav a:visited{
@@ -65,26 +69,28 @@ img {
   max-width: 100%;
   max-height: 100%;
   border-style: solid;
-  border-width: 3px;
-  border-color: #666666;
-  margin: 3px;
-  padding: 3px;
-
- background-color: #52c3e3;
+  border-width: 5 px;
+  border-color: #000;
+  align-content: center;
+  margin: 1px;
+ padding: 2px;
+ background-color: #51c3e3;
 }
 aside {
   display: inline-block;
+  align-content: center;
   float: left;
- max-width:15%;
- max-height: 100%;
- padding: 30px ;
-  margin: 3%;
+ width: 15%;
+ padding: 10px 25px 50px 25px;
+  margin: 1px;
   border-style: solid;
   border-color: #2a4b57;
   border-width: 3px;
   background-color: #52c3e3;
 }
- 
+ h2{
+  color: ;
+ }
 
 section{
   display: inline-block;
