@@ -12,6 +12,7 @@ header {
   border-style: solid;
   border-width: 0 auto;
   border-color: #ffffff;
+  align-text: center;
 }
 h1 {
   color: #ffffff;
@@ -22,12 +23,14 @@ h1 {
   border-width: 0 auto;
 }
 nav a{
+
   display: inline-block;
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
   padding: 5px;
-  margin: 1px 1px;
+  margin: 15px 35px;
+  text-align: center;
   color: #00ccff;
   background-color: hsl(348.1,97%,75.4%);
   font-family: helvetica, arial, cursive;
@@ -55,26 +58,37 @@ nav a:active {
 
 nav a.active{
   color: #E4b7f8;
-  background-color: #09e3ac;
+  background-color: #0881c2;
 }
 img {
   max-width: 100%;
-  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #52c3e3;
+  margin: 0 auto;
+  padding: 1.3px;
+
+ background-color: #52c3e3;
 }
-aside {
+aside.left {
   display: inline-block;
-  width: 15%;
+ max-width: 20%;
+ max-height: 100%;
+ padding: 10px ;
+  margin: 0 auto;
   float: left;
   border-style: solid;
-  border-bottom: 10%;
-  border-width: 5px;
   border-color: #2a4b57;
-  padding: 3px 3px;
-  margin: 0.5%;
+  border-width: 3px;
+
   background-color: #52c3e3;
-} 
-section{
+}
+ 
+
+section.right{
   display: inline-block;
+  position: relative;
   float: left;
   margin: 1%;
   width: 70%;
