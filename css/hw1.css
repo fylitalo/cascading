@@ -12,7 +12,7 @@ header {
   border-style: solid;
   border-width: 0 auto;
   border-color: #ffffff;
-  align-text: center;
+  text-align: center;
 }
 h1 {
   color: #ffffff;
@@ -28,7 +28,7 @@ nav a{
   border-style: solid;
   border-width: 1px;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px 80px 10px 80px;
   margin: 15px 35px;
   text-align: center;
   color: #00ccff;
@@ -37,6 +37,7 @@ nav a{
   font-weight: bolder;
   font-size: 22px;
   text-decoration: none;
+
 
 }nav a:visited{
   color: #40BFF5;
@@ -57,38 +58,36 @@ nav a:active {
 }
 
 nav a.active{
-  color: #E4b7f8;
-  background-color: #0881c2;
+  color: #99ff33;
+  background-color: #74089c;
 }
 img {
   max-width: 100%;
   max-height: 100%;
   border-style: solid;
-  border-width: 2px;
-  border-color: #52c3e3;
-  margin: 0 auto;
-  padding: 1.3px;
+  border-width: 3px;
+  border-color: #666666;
+  margin: 3px;
+  padding: 3px;
 
  background-color: #52c3e3;
 }
-aside.left {
+aside {
   display: inline-block;
- max-width: 20%;
- max-height: 100%;
- padding: 10px ;
-  margin: 0 auto;
   float: left;
+ max-width:15%;
+ max-height: 100%;
+ padding: 30px ;
+  margin: 3%;
   border-style: solid;
   border-color: #2a4b57;
   border-width: 3px;
-
   background-color: #52c3e3;
 }
  
 
-section.right{
+section{
   display: inline-block;
-  position: relative;
   float: left;
   margin: 1%;
   width: 70%;
