@@ -32,7 +32,7 @@ nav a{
   background-color: hsl(348.1,97%,75.4%);
   font-family: helvetica, arial, cursive;
   font-weight: bolder;
-  font-size: 15px;
+  font-size: 22px;
   text-decoration: none;
 
 }nav a:visited{
@@ -52,23 +52,35 @@ nav a:active {
   color: #09e3ac;
   background-color: #E4b7f8;
 }
+
+nav a.active{
+  color: #E4b7f8;
+  background-color: #09e3ac;
+}
 img {
   max-width: 100%;
   max-width: 100%;
 }
 aside {
   display: inline-block;
-  width: 25%;
+  width: 15%;
   float: left;
-  border-width: 1px;
-  padding: 2px;
-  margin: 0.1%;
+  border-style: solid;
+  border-bottom: 10%;
+  border-width: 5px;
+  border-color: #2a4b57;
+  padding: 3px 3px;
+  margin: 0.5%;
+  background-color: #52c3e3;
 } 
 section{
   display: inline-block;
   float: left;
   margin: 1%;
   width: 70%;
+  font-size: 24px;
+  font-weight: bold;
+
 }
 
   
