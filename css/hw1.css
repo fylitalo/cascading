@@ -71,19 +71,23 @@ img {
   border-style: solid;
   border-width: 5 px;
   border-color: #000;
+  border-radius: 5px;
   align-content: center;
   margin: 1px;
- padding: 2px;
- background-color: #51c3e3;
+ padding-bottom: 15px;
+ padding-top: 15px;
+ padding-left: 5px;
+ padding-right: 5px;
+ background-color: #000;
 }
 aside {
   display: inline-block;
   align-content: center;
   float: left;
- width: 15%;
- height: 100%;
- padding: 10px 25px 50px 25px;
-  margin: 1px;
+ width: 12%;
+ padding: 0px 25px 250px 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border-style: solid;
   border-color: #2a4b57;
   border-width: 3px;
