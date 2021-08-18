@@ -53,6 +53,7 @@ nav a:focus{
 nav a:hover{
   color: #168238;
   background-color:#510407;
+  text-shadow: 5px;
 }
 nav a.active {
     color: #ffffff;
@@ -88,7 +89,7 @@ img {
   background-color: #168238;
 }
  h2{
-  color: #666;
+  color: #000;
  }
 
 .right{
@@ -126,6 +127,7 @@ td{
   opacity: 75%;
 }
 td:hover{
+  color: #000;
   opacity: 100%;
 }
 
