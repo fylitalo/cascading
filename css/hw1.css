@@ -97,13 +97,8 @@ img {
   float: left;
   margin: 1%;
   width: 70%;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
-}
-table{
-  background-color: #C5f7d4;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
 }
 
 table, th, td{
@@ -112,8 +107,26 @@ table, th, td{
   margin: 0 auto;
   padding: 2px;
 }
+table{
+  background-color: #C5f7d4;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom: 20px solid rgb(102, 0, 0);
+  line-height: 24px;
+  margin: 0 auto;
+}
+tbody>tr>:first-child{
+ text-align:left;
+}
+tbody>tr>:nth-child(2){
+ text-align:center;
+}
+tbody>tr>:last-child{
+ text-align:center;
+}
+
 th{
-  color:#fff;
+  color:#ffffff;
 background-color: #168238;
 background: rgb(22, 130, 56, 1);
 background: -moz-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
@@ -121,12 +134,21 @@ background: -webkit-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7
 background: -o-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
 background: -ms-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
 background: linear-gradient(180deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
-text-shadow: 2px 2px 5px #000;
+text-shadow: 2px 2px #000000;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
+font-varient:small-caps;
+font-size: 28px;
+line-height: 28px;
+
 }
 td{
+  font-family: sans-serif, cursive, monospace;
+  color: #000000;
   opacity: 75%;
+  border-radius: 2px;
+  text-shadow: 1px 1px #168238;
+  border-color: #003300;
 }
 td:hover{
   color: #000;
