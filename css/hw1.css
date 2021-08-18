@@ -16,7 +16,6 @@ header {
 }
 h1 {
   color: #ffffff;
-  /* test background: #999999 url(../images/flywheel.jpg);*/
   text-align: center;
   border-style: hidden;
   border-width: 0 auto;
@@ -35,36 +34,31 @@ nav a{
   margin: 10px 35px;
   text-align: center;
   color: #00ccff;
-  background-color: hsl(348.1,97%,75.4%);
+  background-color: #ffffff;
   font-family: helvetica, arial, cursive;
   font-weight: bolder;
   font-size: 22px;
   text-decoration: none;
   opacity: 89%;
-
-
-}nav a:visited{
-  color: #40BFF5;
-  background-color:#f0f0f0;
+}
+ 
+nav a:visited{
+  color:#168238;
+  background-color:#f0f0f3;
 }
 nav a:focus{
-  color:F47DA9;
+  color: #F47DA9;
   background-color:#1808AD;
 }
 nav a:hover{
-  color: #99ff33;
-  background-color:#6666ff;
+  color: #168238;
+  background-color:#510407;
 }
+nav a.active {
+    color: #ffffff;
+    background-color: #168238;
+  }
 
-nav a:active {
-  color: #09e3ac;
-  background-color: #E4b7f8;
-}
-
-nav a.active{
-  color: #99ff33;
-  background-color: #74089c;
-}
 img {
   max-width: 100%;
   max-height: 100%;
@@ -80,7 +74,7 @@ img {
  padding-right: 5px;
  background-color: #000;
 }
-aside {
+.left {
   display: inline-block;
   align-content: center;
   float: left;
@@ -91,20 +85,47 @@ aside {
   border-style: solid;
   border-color: #2a4b57;
   border-width: 3px;
-  background-color: #52c3e3;
+  background-color: #168238;
 }
  h2{
-  color: ;
+  color: #666;
  }
 
-section{
+.right{
   display: inline-block;
   float: left;
   margin: 1%;
   width: 70%;
   font-size: 24px;
   font-weight: bold;
-
+}
+table{
+  background-color: #C5f7d4;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
-  
+table, th, td{
+  border: 3px solid black;
+  border-color: #168238;
+  margin: 0 auto;
+  padding: 2px;
+}
+th{
+  color:#fff;
+background-color: #168238;
+background: rgb(22, 130, 56, 1);
+background: -moz-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
+background: -webkit-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
+background: -o-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
+background: -ms-linear-gradient(90deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
+background: linear-gradient(180deg, rgb(22, 130, 56, 1) 30%, rgb(81, 4, 7) 70%);
+text-shadow: 2px 2px 5px #000;
+}
+td{
+  opacity: 75%;
+}
+td:hover{
+  opacity: 100%;
+}
+
